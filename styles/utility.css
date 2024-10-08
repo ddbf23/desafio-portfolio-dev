@@ -1,0 +1,51 @@
+.grid {
+  display: grid;
+}
+
+.grid-auto-flow {
+  grid-auto-flow: column;
+}
+
+.grid-cols-2 {
+  grid-template-columns: 20px 1fr;
+}
+
+.grid-cols-3 {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.flex {
+  display: flex;
+}
+
+.title-lg {
+  font: var(--h1);
+  color: var(--gray-600);
+}
+
+.title-md {
+  font: var(--h2);
+  color: var(--gray-600);
+}
+
+.title-sm {
+  font: var(--h3);
+  color: var(--gray-600);
+}
+
+.text-sm {
+  font: var(--text-sm);
+  color: var(--gray-400);
+}
+
+.subtitle {
+  font: var(--subtitle);
+}
+
+.red {
+  color: var(--red);
+}
+
+.purple {
+  color: var(--purple);
+}
